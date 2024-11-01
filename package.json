@@ -13,6 +13,15 @@
     "electron": "^28.0.0",
     "electron-builder": "^24.9.1"
   },
+  {
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  }
+},
   "build": {
     "appId": "com.nexus.fivem.launcher",
     "productName": "Nexus FiveM Launcher",
