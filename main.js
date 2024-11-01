@@ -77,6 +77,10 @@ if (launchButton) {
     });
 }
 
+// Tilføj i main.js
+const { autoUpdater } = require('electron-updater');
+autoUpdater.checkForUpdatesAndNotify();
+
 // Notifikation system
 class NotificationSystem {
     static show(message, type = 'info') {
