@@ -5,13 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hjem - Nexus FiveM Launcher</title>
     <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="titlebar">
-        <div class="titlebar-drag">Nexus FiveM Launcher</div>
+        <div class="titlebar-drag">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+            </svg>
+            Nexus FiveM Launcher
+        </div>
         <div class="window-controls">
-            <button class="minimize-btn">─</button>
-            <button class="close-btn">✕</button>
+            <button class="minimize-btn">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                </svg>
+            </button>
+            <button class="close-btn">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <line x1="18" y1="6" x2="6" y2="18"></line>
+                    <line x1="6" y1="6" x2="18" y2="18"></line>
+                </svg>
+            </button>
         </div>
     </div>
 
@@ -21,158 +36,201 @@
         </div>
         <nav class="sidebar-nav">
             <a href="#" class="nav-item active">
-                <span class="nav-icon">🏠</span>
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+                    <polyline points="9 22 9 12 15 12 15 22"></polyline>
+                </svg>
                 Hjem
             </a>
             <a href="news.html" class="nav-item">
-                <span class="nav-icon">📰</span>
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                    <polyline points="14 2 14 8 20 8"></polyline>
+                    <line x1="16" y1="13" x2="8" y2="13"></line>
+                    <line x1="16" y1="17" x2="8" y2="17"></line>
+                    <polyline points="10 9 9 9 8 9"></polyline>
+                </svg>
                 Nyheder
             </a>
             <a href="events.html" class="nav-item">
-                <span class="nav-icon">🎉</span>
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M18 20V10M12 20V4M6 20v-6"></path>
+                </svg>
                 Events
             </a>
             <a href="navigation.html" class="nav-item">
-                <span class="nav-icon">🗺️</span>
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"></polygon>
+                </svg>
                 Navigation
             </a>
             <a href="settings.html" class="nav-item">
-                <span class="nav-icon">⚙️</span>
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <circle cx="12" cy="12" r="3"></circle>
+                    <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"></path>
+                </svg>
                 Indstillinger
             </a>
             <a href="support.html" class="nav-item">
-                <span class="nav-icon">❓</span>
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path>
+                    <line x1="12" y1="17" x2="12.01" y2="17"></line>
+                </svg>
                 Support
             </a>
         </nav>
     </div>
 
     <main class="main-content">
-        <section class="home-section">
-            <div class="welcome-banner">
-                <div class="banner-content">
-                    <h1>Velkommen til Nexus</h1>
-                    <p>Din gateway til den ultimative FiveM oplevelse</p>
-                    <div class="server-status">
-                        <span class="status-badge online">Online</span>
-                        <span class="player-count">324/1000 Spillere</span>
-                    </div>
-                    <button class="connect-btn">Tilslut Server</button>
-                </div>
-                <div class="banner-image">
-                    <img src="assets/images/banner.jpg" alt="Server Banner">
-                </div>
-            </div>
-
-            <div class="quick-stats">
-                <div class="stat-card">
-                    <span class="stat-icon">👥</span>
-                    <div class="stat-info">
-                        <h3>Online Spillere</h3>
-                        <p>324</p>
-                    </div>
-                </div>
-                <div class="stat-card">
-                    <span class="stat-icon">⭐</span>
-                    <div class="stat-info">
-                        <h3>Server Rating</h3>
-                        <p>4.8/5.0</p>
-                    </div>
-                </div>
-                <div class="stat-card">
-                    <span class="stat-icon">🎮</span>
-                    <div class="stat-info">
-                        <h3>Aktive Events</h3>
-                        <p>3</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="content-grid">
-                <div class="news-preview">
-                    <div class="section-header">
-                        <h2>Seneste Nyheder</h2>
-                        <a href="news.html" class="view-all">Se alle</a>
-                    </div>
-                    <div class="news-cards">
-                        <div class="news-card">
-                            <div class="news-image">
-                                <img src="assets/images/news/latest1.jpg" alt="Seneste Nyhed">
-                                <span class="news-badge">Opdatering</span>
-                            </div>
-                            <div class="news-content">
-                                <h3>Stor Sommeropdatering</h3>
-                                <p>Oplev den største opdatering nogensinde med nye køretøjer og missions!</p>
-                                <span class="news-date">1. November 2024</span>
-                            </div>
-                        </div>
-                        <div class="news-card">
-                            <div class="news-image">
-                                <img src="assets/images/news/latest2.jpg" alt="Event Nyhed">
-                                <span class="news-badge">Event</span>
-                            </div>
-                            <div class="news-content">
-                                <h3>Weekendens Racing Event</h3>
-                                <p>Deltag i weekendens store racing event med store præmier!</p>
-                                <span class="news-date">31. Oktober 2024</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="events-preview">
-                    <div class="section-header">
-                        <h2>Aktive Events</h2>
-                        <a href="events.html" class="view-all">Se alle</a>
-                    </div>
-                    <div class="event-cards">
-                        <div class="event-card">
-                            <div class="event-time">
-                                <span class="date">NOV 1</span>
-                                <span class="time">20:00</span>
-                            </div>
-                            <div class="event-info">
-                                <h3>Street Race Championship</h3>
-                                <p>Vinewood Hills</p>
-                                <span class="participants">🏃 32/50 Deltagere</span>
-                            </div>
-                            <button class="join-btn">Tilmeld</button>
-                        </div>
-                        <div class="event-card">
-                            <div class="event-time">
-                                <span class="date">NOV 2</span>
-                                <span class="time">18:00</span>
-                            </div>
-                            <div class="event-info">
-                                <h3>Casino Night</h3>
-                                <p>Diamond Casino</p>
-                                <span class="participants">🏃 156/200 Deltagere</span>
-                            </div>
-                            <button class="join-btn">Tilmeld</button>
-                        </div>
-                    </div>
-                </div>
+        <section class="welcome-section">
+            <div class="welcome-header">
+                <h1>Velkommen tilbage, Spiller</h1>
+                <p class="online-status">
+                    <span class="status-dot online"></span>
+                    2,457 spillere online
+                </p>
             </div>
 
             <div class="quick-actions">
-                <h2>Hurtige Links</h2>
-                <div class="action-buttons">
-                    <button class="action-btn">
-                        <span class="action-icon">📖</span>
-                        Server Regler
-                    </button>
-                    <button class="action-btn">
-                        <span class="action-icon">💬</span>
-                        Discord
-                    </button>
-                    <button class="action-btn">
-                        <span class="action-icon">🎮</span>
-                        Spil Guide
-                    </button>
-                    <button class="action-btn">
-                        <span class="action-icon">🎁</span>
-                        Butik
-                    </button>
+                <button class="primary-button">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <polygon points="5 3 19 12 5 21 5 3"></polygon>
+                    </svg>
+                    Start Spillet
+                </button>
+                <button class="secondary-button">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    Skift Theme
+                </button>
+            </div>
+
+            <div class="dashboard-grid">
+                <!-- Server Status Card -->
+                <div class="dashboard-card">
+                    <div class="card-header">
+                        <h3>Server Status</h3>
+                        <span class="status-badge online">Online</span>
+                    </div>
+                    <div class="server-stats">
+                        <div class="stat-item">
+                            <span class="stat-label">Ping</span>
+                            <span class="stat-value">24ms</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-label">Slots</span>
+                            <span class="stat-value">128/128</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-label">Uptime</span>
+                            <span class="stat-value">99.9%</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Character Card -->
+                <div class="dashboard-card">
+                    <div class="card-header">
+                        <h3>Din Karakter</h3>
+                        <button class="icon-button">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"></path>
+                                <path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"></path>
+                            </svg>
+                        </button>
+                    </div>
+                    <div class="character-info">
+                        <div class="character-avatar">
+                            <img src="assets/images/character.jpg" alt="Character Avatar">
+                        </div>
+                        <div class="character-stats">
+                            <div class="stat-row">
+                                <span class="stat-label">Navn</span>
+                                <span class="stat-value">John Doe</span>
+                            </div>
+                            <div class="stat-row">
+                                <span class="stat-label">Level</span>
+                                <span class="stat-value">32</span>
+                            </div>
+                            <div class="stat-row">
+                                <span class="stat-label">Penge</span>
+                                <span class="stat-value">$1,234,567</span>
+                            </div>
+                            <div class="stat-row">
+                                <span class="stat-label">Job</span>
+                                <span class="stat-value">Politi</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Recent Activity Card -->
+                <div class="dashboard-card">
+                    <div class="card-header">
+                        <h3>Seneste Aktivitet</h3>
+                        <button class="text-button">Se alle</button>
+                    </div>
+                    <div class="activity-list">
+                        <div class="activity-item">
+                            <div class="activity-icon success">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M20 6L9 17l-5-5"></path>
+                                </svg>
+                            </div>
+                            <div class="activity-content">
+                                <p>Tilsluttet serveren</p>
+                                <span class="activity-time">For 2 timer siden</span>
+                            </div>
+                        </div>
+                        <div class="activity-item">
+                            <div class="activity-icon warning">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <circle cx="12" cy="12" r="10"></circle>
+                                    <line x1="12" y1="8" x2="12" y2="12"></line>
+                                    <line x1="12" y1="16" x2="12.01" y2="16"></line>
+                                </svg>
+                            </div>
+                            <div class="activity-content">
+                                <p>Ny event annonceret</p>
+                                <span class="activity-time">For 5 timer siden</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Upcoming Events Card -->
+                <div class="dashboard-card">
+                    <div class="card-header">
+                        <h3>Kommende Events</h3>
+                        <button class="text-button">Se alle</button>
+                    </div>
+                    <div class="upcoming-events">
+                        <div class="mini-event-card">
+                            <div class="event-time">
+                                <span class="date">25</span>
+                                <span class="month">NOV</span>
+                            </div>
+                            <div class="event-info">
+                                <h4>Street Race Championship</h4>
+                                <p>20:00 - Centrum</p>
+                            </div>
+                            <button class="join-btn">Tilmeld</button>
+                        </div>
+                        <div class="mini-event-card">
+                            <div class="event-time">
+                                <span class="date">28</span>
+                                <span class="month">NOV</span>
+                            </div>
+                            <div class="event-info">
+                                <h4>Politijagt Event</h4>
+                                <p>21:00 - Hele byen</p>
+                            </div>
+                            <button class="join-btn">Tilmeld</button>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
