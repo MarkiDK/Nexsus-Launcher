@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nyheder - Nexus FiveM Launcher</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="titlebar">
+        <div class="titlebar-drag">Nexus FiveM Launcher</div>
+        <div class="window-controls">
+            <button class="minimize-btn">─</button>
+            <button class="close-btn">✕</button>
+        </div>
+    </div>
+
+    <div class="sidebar">
+        <div class="logo-container">
+            <img src="assets/images/logo.png" alt="Nexus Logo" class="logo">
+        </div>
+        <nav class="sidebar-nav">
+            <a href="index.html" class="nav-item">
+                <span class="nav-icon">🏠</span>
+                Hjem
+            </a>
+            <a href="#" class="nav-item active">
+                <span class="nav-icon">📰</span>
+                Nyheder
+            </a>
+            <a href="events.html" class="nav-item">
+                <span class="nav-icon">🎉</span>
+                Events
+            </a>
+            <a href="navigation.html" class="nav-item">
+                <span class="nav-icon">🗺️</span>
+                Navigation
+            </a>
+            <a href="settings.html" class="nav-item">
+                <span class="nav-icon">⚙️</span>
+                Indstillinger
+            </a>
+            <a href="support.html" class="nav-item">
+                <span class="nav-icon">❓</span>
+                Support
+            </a>
+        </nav>
+    </div>
+
+    <main class="main-content">
+        <section class="news-section">
+            <div class="section-header">
+                <h2>Seneste Nyheder</h2>
+                <div class="news-filters">
+                    <button class="filter-btn active">Alle</button>
+                    <button class="filter-btn">Opdateringer</button>
+                    <button class="filter-btn">Events</button>
+                    <button class="filter-btn">Konkurrencer</button>
+                </div>
+            </div>
+
+            <div class="news-grid">
+                <!-- Featured News -->
+                <article class="news-card featured">
+                    <div class="news-image">
+                        <img src="assets/images/news/featured.jpg" alt="Stor Sommeropdatering">
+                        <span class="news-badge">Opdatering</span>
+                    </div>
+                    <div class="news-content">
+                        <h3>Stor Sommeropdatering</h3>
+                        <p>Oplev den største opdatering nogensinde med nye køretøjer, missioner og meget mere! Vi har arbejdet hårdt på at bringe jer den bedste oplevelse.</p>
+                        <div class="news-meta">
+                            <span class="news-date">1. November 2024</span>
+                            <a href="#" class="read-more">Læs mere</a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Regular News Cards -->
+                <article class="news-card">
+                    <div class="news-image">
+                        <img src="assets/images/news/event1.jpg" alt="Racing Event">
+                        <span class="news-badge">Event</span>
+                    </div>
+                    <div class="news-content">
+                        <h3>Weekendens Racing Event</h3>
+                        <p>Deltag i weekendens store racing event med præmier for over 1 million!</p>
+                        <div class="news-meta">
+                            <span class="news-date">31. Oktober 2024</span>
+                            <a href="#" class="read-more">Læs mere</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="news-card">
+                    <div class="news-image">
+                        <img src="assets/images/news/competition1.jpg" alt="Foto Konkurrence">
+                        <span class="news-badge">Konkurrence</span>
+                    </div>
+                    <div class="news-content">
+                        <h3>Foto Konkurrence</h3>
+                        <p>Tag det bedste billede i byen og vind fede præmier! Konkurrencen løber hele november.</p>
+                        <div class="news-meta">
+                            <span class="news-date">30. Oktober 2024</span>
+                            <a href="#" class="read-more">Læs mere</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="news-card">
+                    <div class="news-image">
+                        <img src="assets/images/news/update1.jpg" alt="Patch Notes">
+                        <span class="news-badge">Opdatering</span>
+                    </div>
+                    <div class="news-content">
+                        <h3>Patch Notes v1.5.2</h3>
+                        <p>Se alle de seneste ændringer og forbedringer i den nyeste opdatering.</p>
+                        <div class="news-meta">
+                            <span class="news-date">29. Oktober 2024</span>
+                            <a href="#" class="read-more">Læs mere</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="news-card">
+                    <div class="news-image">
+                        <img src="assets/images/news/event2.jpg" alt="Halloween Event">
+                        <span class="news-badge">Event</span>
+                    </div>
+                    <div class="news-content">
+                        <h3>Halloween Special Event</h3>
+                        <p>Oplev den uhyggelige side af Los Santos med special missions og kostumer!</p>
+                        <div class="news-meta">
+                            <span class="news-date">28. Oktober 2024</span>
+                            <a href="#" class="read-more">Læs mere</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="news-card">
+                    <div class="news-image">
+                        <img src="assets/images/news/competition2.jpg" alt="Talent Show">
+                        <span class="news-badge">Konkurrence</span>
+                    </div>
+                    <div class="news-content">
+                        <h3>Nexus Got Talent</h3>
+                        <p>Vis dine talenter frem og vind store præmier i vores første talent show!</p>
+                        <div class="news-meta">
+                            <span class="news-date">27. Oktober 2024</span>
+                            <a href="#" class="read-more">Læs mere</a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+
+            <div class="pagination">
+                <button class="pagination-btn">Forrige</button>
+                <div class="page-numbers">
+                    <button class="page-btn active">1</button>
+                    <button class="page-btn">2</button>
+                    <button class="page-btn">3</button>
+                    <span class="page-dots">...</span>
+                    <button class="page-btn">8</button>
+                </div>
+                <button class="pagination-btn">Næste</button>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
+

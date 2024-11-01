@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation - Nexus FiveM Launcher</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="titlebar">
+        <div class="titlebar-drag">Nexus FiveM Launcher</div>
+        <div class="window-controls">
+            <button class="minimize-btn">─</button>
+            <button class="close-btn">✕</button>
+        </div>
+    </div>
+
+    <div class="sidebar">
+        <div class="logo-container">
+            <img src="assets/images/logo.png" alt="Nexus Logo" class="logo">
+        </div>
+        <nav class="sidebar-nav">
+            <a href="index.html" class="nav-item">
+                <span class="nav-icon">🏠</span>
+                Hjem
+            </a>
+            <a href="news.html" class="nav-item">
+                <span class="nav-icon">📰</span>
+                Nyheder
+            </a>
+            <a href="events.html" class="nav-item">
+                <span class="nav-icon">🎉</span>
+                Events
+            </a>
+            <a href="#" class="nav-item active">
+                <span class="nav-icon">🗺️</span>
+                Navigation
+            </a>
+            <a href="settings.html" class="nav-item">
+                <span class="nav-icon">⚙️</span>
+                Indstillinger
+            </a>
+            <a href="support.html" class="nav-item">
+                <span class="nav-icon">❓</span>
+                Support
+            </a>
+        </nav>
+    </div>
+
+    <main class="main-content">
+        <section class="navigation-section">
+            <div class="section-header">
+                <h2>Server Navigation</h2>
+                <div class="search-bar">
+                    <input type="text" placeholder="Søg efter lokationer...">
+                    <button class="search-btn">🔍</button>
+                </div>
+            </div>
+
+            <div class="map-container">
+                <div class="map-controls">
+                    <button class="map-btn">+</button>
+                    <button class="map-btn">-</button>
+                    <button class="map-btn">⟲</button>
+                </div>
+                <div class="interactive-map">
+                    <img src="assets/images/map/los-santos.jpg" alt="Los Santos Map">
+                    <!-- Markers vil blive tilføjet via JavaScript -->
+                </div>
+            </div>
+
+            <div class="locations-grid">
+                <div class="location-category">
+                    <h3>Populære Steder</h3>
+                    <div class="location-list">
+                        <div class="location-card">
+                            <img src="assets/images/locations/police.jpg" alt="Politi Station">
+                            <div class="location-info">
+                                <h4>Politi Station</h4>
+                                <p>Mission Row</p>
+                                <button class="navigate-btn">Naviger</button>
+                            </div>
+                        </div>
+
+                        <div class="location-card">
+                            <img src="assets/images/locations/hospital.jpg" alt="Hospital">
+                            <div class="location-info">
+                                <h4>Central Hospital</h4>
+                                <p>Downtown</p>
+                                <button class="navigate-btn">Naviger</button>
+                            </div>
+                        </div>
+
+                        <div class="location-card">
+                            <img src="assets/images/locations/garage.jpg" alt="Central Garage">
+                            <div class="location-info">
+                                <h4>Central Garage</h4>
+                                <p>Vinewood</p>
+                                <button class="navigate-btn">Naviger</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="location-category">
+                    <h3>Forretninger</h3>
+                    <div class="location-list">
+                        <div class="location-card">
+                            <img src="assets/images/locations/shop.jpg" alt="24/7 Butik">
+                            <div class="location-info">
+                                <h4>24/7 Butik</h4>
+                                <p>Grove Street</p>
+                                <button class="navigate-btn">Naviger</button>
+                            </div>
+                        </div>
+
+                        <div class="location-card">
+                            <img src="assets/images/locations/clothing.jpg" alt="Tøjbutik">
+                            <div class="location-info">
+                                <h4>Suburban</h4>
+                                <p>Del Perro</p>
+                                <button class="navigate-btn">Naviger</button>
+                            </div>
+                        </div>
+
+                        <div class="location-card">
+                            <img src="assets/images/locations/ammunation.jpg" alt="Ammunation">
+                            <div class="location-info">
+                                <h4>Ammunation</h4>
+                                <p>Sandy Shores</p>
+                                <button class="navigate-btn">Naviger</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="quick-teleport">
+                <h3>Hurtig Teleport</h3>
+                <div class="teleport-buttons">
+                    <button class="teleport-btn">Spawn</button>
+                    <button class="teleport-btn">Politi</button>
+                    <button class="teleport-btn">Hospital</button>
+                    <button class="teleport-btn">Garage</button>
+                    <button class="teleport-btn">Job Center</button>
+                    <button class="teleport-btn">Casino</button>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

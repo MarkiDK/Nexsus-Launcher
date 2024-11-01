@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indstillinger - Nexus FiveM Launcher</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="titlebar">
+        <div class="titlebar-drag">Nexus FiveM Launcher</div>
+        <div class="window-controls">
+            <button class="minimize-btn">─</button>
+            <button class="close-btn">✕</button>
+        </div>
+    </div>
+
+    <div class="sidebar">
+        <div class="logo-container">
+            <img src="assets/images/logo.png" alt="Nexus Logo" class="logo">
+        </div>
+        <nav class="sidebar-nav">
+            <a href="index.html" class="nav-item">
+                <span class="nav-icon">🏠</span>
+                Hjem
+            </a>
+            <a href="news.html" class="nav-item">
+                <span class="nav-icon">📰</span>
+                Nyheder
+            </a>
+            <a href="events.html" class="nav-item">
+                <span class="nav-icon">🎉</span>
+                Events
+            </a>
+            <a href="navigation.html" class="nav-item">
+                <span class="nav-icon">🗺️</span>
+                Navigation
+            </a>
+            <a href="#" class="nav-item active">
+                <span class="nav-icon">⚙️</span>
+                Indstillinger
+            </a>
+            <a href="support.html" class="nav-item">
+                <span class="nav-icon">❓</span>
+                Support
+            </a>
+        </nav>
+    </div>
+
+    <main class="main-content">
+        <section class="settings-section">
+            <div class="section-header">
+                <h2>Indstillinger</h2>
+            </div>
+
+            <div class="settings-container">
+                <div class="settings-category">
+                    <h3>Generelle Indstillinger</h3>
+                    <div class="settings-group">
+                        <div class="setting-item">
+                            <label>Sprog</label>
+                            <select class="setting-select">
+                                <option value="da">Dansk</option>
+                                <option value="en">English</option>
+                                <option value="de">Deutsch</option>
+                            </select>
+                        </div>
+
+                        <div class="setting-item">
+                            <label>Start med Windows</label>
+                            <label class="toggle-switch">
+                                <input type="checkbox">
+                                <span class="toggle-slider"></span>
+                            </label>
+                        </div>
+
+                        <div class="setting-item">
+                            <label>Automatiske opdateringer</label>
+                            <label class="toggle-switch">
+                                <input type="checkbox" checked>
+                                <span class="toggle-slider"></span>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="settings-category">
+                    <h3>FiveM Indstillinger</h3>
+                    <div class="settings-group">
+                        <div class="setting-item">
+                            <label>FiveM Sti</label>
+                            <div class="path-input">
+                                <input type="text" value="C:\Program Files\FiveM" readonly>
+                                <button class="browse-btn">Gennemse</button>
+                            </div>
+                        </div>
+
+                        <div class="setting-item">
+                            <label>Direkte tilslutning</label>
+                            <label class="toggle-switch">
+                                <input type="checkbox">
+                                <span class="toggle-slider"></span>
+                            </label>
+                        </div>
+
+                        <div class="setting-item">
+                            <label>Cache størrelse</label>
+                            <select class="setting-select">
+                                <option value="2">2 GB</option>
+                                <option value="4">4 GB</option>
+                                <option value="8">8 GB</option>
+                                <option value="16">16 GB</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="settings-category">
+                    <h3>Grafiske Indstillinger</h3>
+                    <div class="settings-group">
+                        <div class="setting-item">
+                            <label>Tema</label>
+                            <select class="setting-select">
+                                <option value="light">Lys</option>
+                                <option value="dark">Mørk</option>
+                                <option value="system">System</option>
+                            </select>
+                        </div>
+
+                        <div class="setting-item">
+                            <label>Animationer</label>
+                            <label class="toggle-switch">
+                                <input type="checkbox" checked>
+                                <span class="toggle-slider"></span>
+                            </label>
+                        </div>
+
+                        <div class="setting-item">
+                            <label>Baggrundsbillede</label>
+                            <div class="background-preview">
+                                <img src="assets/images/backgrounds/current.jpg" alt="Current Background">
+                                <button class="change-bg-btn">Skift baggrund</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="settings-category">
+                    <h3>Notifikationer</h3>
+                    <div class="settings-group">
+                        <div class="setting-item">
+                            <label>Event påmindelser</label>
+                            <label class="toggle-switch">
+                                <input type="checkbox" checked>
+                                <span class="toggle-slider"></span>
+                            </label>
+                        </div>
+
+                        <div class="setting-item">
+                            <label>Opdateringer</label>
+                            <label class="toggle-switch">
+                                <input type="checkbox" checked>
+                                <span class="toggle-slider"></span>
+                            </label>
+                        </div>
+
+                        <div class="setting-item">
+                            <label>Server meddelelser</label>
+                            <label class="toggle-switch">
+                                <input type="checkbox" checked>
+                                <span class="toggle-slider"></span>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="settings-actions">
+                <button class="reset-btn">Nulstil til standard</button>
+                <button class="save-btn">Gem ændringer</button>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
