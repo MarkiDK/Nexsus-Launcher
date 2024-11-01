@@ -381,6 +381,8 @@ async refreshServers() {
         }
     }
 }
+// I bunden af server.js
+module.exports = { ServerManager };
 
 // Opret og eksporter en instance af ServerManager
 const serverManager = new ServerManager();
