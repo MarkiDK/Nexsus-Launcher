@@ -100,6 +100,11 @@ class NotificationSystem {
         }, 3000);
     }
 }
+webPreferences: {
+  nodeIntegration: false,
+  contextIsolation: true,
+  sandbox: true
+}
 
 // Export functions for use in other files
 window.nexusApp = {
