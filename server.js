@@ -11,6 +11,16 @@ class ServerManager {
         this.initializeListeners();
         this.loadFavorites();
     }
+    // Tilføj i server.js
+class ServerCache {
+  static saveToCache(servers) {
+    localStorage.setItem('cachedServers', JSON.stringify(servers));
+  }
+  
+  static loadFromCache() {
+    return JSON.parse(localStorage.getItem('cachedServers') || '[]');
+  }
+}
 
     initializeListeners() {
         // Refresh knap
