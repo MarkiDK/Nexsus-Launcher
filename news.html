@@ -5,167 +5,133 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nyheder - Nexus FiveM Launcher</title>
     <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
+    <!-- Titlebar -->
     <div class="titlebar">
-        <div class="titlebar-drag">Nexus FiveM Launcher</div>
+        <div class="titlebar-drag">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+            </svg>
+            Nexus FiveM Launcher
+        </div>
         <div class="window-controls">
-            <button class="minimize-btn">─</button>
-            <button class="close-btn">✕</button>
+            <button class="minimize-btn">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                </svg>
+            </button>
+            <button class="close-btn">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <line x1="18" y1="6" x2="6" y2="18"></line>
+                    <line x1="6" y1="6" x2="18" y2="18"></line>
+                </svg>
+            </button>
         </div>
     </div>
 
+    <!-- Sidebar -->
     <div class="sidebar">
         <div class="logo-container">
             <img src="assets/images/logo.png" alt="Nexus Logo" class="logo">
         </div>
         <nav class="sidebar-nav">
             <a href="index.html" class="nav-item">
-                <span class="nav-icon">🏠</span>
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+                    <polyline points="9 22 9 12 15 12 15 22"></polyline>
+                </svg>
                 Hjem
             </a>
-            <a href="#" class="nav-item active">
-                <span class="nav-icon">📰</span>
+            <a href="news.html" class="nav-item active">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                    <polyline points="14 2 14 8 20 8"></polyline>
+                    <line x1="16" y1="13" x2="8" y2="13"></line>
+                    <line x1="16" y1="17" x2="8" y2="17"></line>
+                    <polyline points="10 9 9 9 8 9"></polyline>
+                </svg>
                 Nyheder
             </a>
             <a href="events.html" class="nav-item">
-                <span class="nav-icon">🎉</span>
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M18 20V10M12 20V4M6 20v-6"></path>
+                </svg>
                 Events
             </a>
             <a href="navigation.html" class="nav-item">
-                <span class="nav-icon">🗺️</span>
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"></polygon>
+                </svg>
                 Navigation
             </a>
             <a href="settings.html" class="nav-item">
-                <span class="nav-icon">⚙️</span>
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <circle cx="12" cy="12" r="3"></circle>
+                    <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"></path>
+                </svg>
                 Indstillinger
             </a>
             <a href="support.html" class="nav-item">
-                <span class="nav-icon">❓</span>
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path>
+                    <line x1="12" y1="17" x2="12.01" y2="17"></line>
+                </svg>
                 Support
             </a>
         </nav>
     </div>
 
+    <!-- Main Content -->
     <main class="main-content">
-        <section class="news-section">
-            <div class="section-header">
-                <h2>Seneste Nyheder</h2>
-                <div class="news-filters">
-                    <button class="filter-btn active">Alle</button>
-                    <button class="filter-btn">Opdateringer</button>
-                    <button class="filter-btn">Events</button>
-                    <button class="filter-btn">Konkurrencer</button>
+        <div class="content-wrapper">
+            <section class="news-section">
+                <h1>Nyheder</h1>
+                <div class="news-grid">
+                    <!-- Nyhedsartikler -->
+                    <article class="news-card">
+                        <div class="news-image">
+                            <img src="assets/images/news1.jpg" alt="Nyhed 1">
+                        </div>
+                        <div class="news-content">
+                            <h2>Ny Server Update</h2>
+                            <p class="news-date">1. November 2024</p>
+                            <p class="news-excerpt">Vi har opdateret serveren med nye features og forbedringer...</p>
+                            <button class="primary-button">Læs Mere</button>
+                        </div>
+                    </article>
+
+                    <article class="news-card">
+                        <div class="news-image">
+                            <img src="assets/images/news2.jpg" alt="Nyhed 2">
+                        </div>
+                        <div class="news-content">
+                            <h2>Community Event</h2>
+                            <p class="news-date">30. Oktober 2024</p>
+                            <p class="news-excerpt">Deltag i vores kommende community event med masser af præmier...</p>
+                            <button class="primary-button">Læs Mere</button>
+                        </div>
+                    </article>
+
+                    <article class="news-card">
+                        <div class="news-image">
+                            <img src="assets/images/news3.jpg" alt="Nyhed 3">
+                        </div>
+                        <div class="news-content">
+                            <h2>Nye Køretøjer</h2>
+                            <p class="news-date">28. Oktober 2024</p>
+                            <p class="news-excerpt">Vi har tilføjet en række nye køretøjer til serveren...</p>
+                            <button class="primary-button">Læs Mere</button>
+                        </div>
+                    </article>
                 </div>
-            </div>
-
-            <div class="news-grid">
-                <!-- Featured News -->
-                <article class="news-card featured">
-                    <div class="news-image">
-                        <img src="assets/images/news/featured.jpg" alt="Stor Sommeropdatering">
-                        <span class="news-badge">Opdatering</span>
-                    </div>
-                    <div class="news-content">
-                        <h3>Stor Sommeropdatering</h3>
-                        <p>Oplev den største opdatering nogensinde med nye køretøjer, missioner og meget mere! Vi har arbejdet hårdt på at bringe jer den bedste oplevelse.</p>
-                        <div class="news-meta">
-                            <span class="news-date">1. November 2024</span>
-                            <a href="#" class="read-more">Læs mere</a>
-                        </div>
-                    </div>
-                </article>
-
-                <!-- Regular News Cards -->
-                <article class="news-card">
-                    <div class="news-image">
-                        <img src="assets/images/news/event1.jpg" alt="Racing Event">
-                        <span class="news-badge">Event</span>
-                    </div>
-                    <div class="news-content">
-                        <h3>Weekendens Racing Event</h3>
-                        <p>Deltag i weekendens store racing event med præmier for over 1 million!</p>
-                        <div class="news-meta">
-                            <span class="news-date">31. Oktober 2024</span>
-                            <a href="#" class="read-more">Læs mere</a>
-                        </div>
-                    </div>
-                </article>
-
-                <article class="news-card">
-                    <div class="news-image">
-                        <img src="assets/images/news/competition1.jpg" alt="Foto Konkurrence">
-                        <span class="news-badge">Konkurrence</span>
-                    </div>
-                    <div class="news-content">
-                        <h3>Foto Konkurrence</h3>
-                        <p>Tag det bedste billede i byen og vind fede præmier! Konkurrencen løber hele november.</p>
-                        <div class="news-meta">
-                            <span class="news-date">30. Oktober 2024</span>
-                            <a href="#" class="read-more">Læs mere</a>
-                        </div>
-                    </div>
-                </article>
-
-                <article class="news-card">
-                    <div class="news-image">
-                        <img src="assets/images/news/update1.jpg" alt="Patch Notes">
-                        <span class="news-badge">Opdatering</span>
-                    </div>
-                    <div class="news-content">
-                        <h3>Patch Notes v1.5.2</h3>
-                        <p>Se alle de seneste ændringer og forbedringer i den nyeste opdatering.</p>
-                        <div class="news-meta">
-                            <span class="news-date">29. Oktober 2024</span>
-                            <a href="#" class="read-more">Læs mere</a>
-                        </div>
-                    </div>
-                </article>
-
-                <article class="news-card">
-                    <div class="news-image">
-                        <img src="assets/images/news/event2.jpg" alt="Halloween Event">
-                        <span class="news-badge">Event</span>
-                    </div>
-                    <div class="news-content">
-                        <h3>Halloween Special Event</h3>
-                        <p>Oplev den uhyggelige side af Los Santos med special missions og kostumer!</p>
-                        <div class="news-meta">
-                            <span class="news-date">28. Oktober 2024</span>
-                            <a href="#" class="read-more">Læs mere</a>
-                        </div>
-                    </div>
-                </article>
-
-                <article class="news-card">
-                    <div class="news-image">
-                        <img src="assets/images/news/competition2.jpg" alt="Talent Show">
-                        <span class="news-badge">Konkurrence</span>
-                    </div>
-                    <div class="news-content">
-                        <h3>Nexus Got Talent</h3>
-                        <p>Vis dine talenter frem og vind store præmier i vores første talent show!</p>
-                        <div class="news-meta">
-                            <span class="news-date">27. Oktober 2024</span>
-                            <a href="#" class="read-more">Læs mere</a>
-                        </div>
-                    </div>
-                </article>
-            </div>
-
-            <div class="pagination">
-                <button class="pagination-btn">Forrige</button>
-                <div class="page-numbers">
-                    <button class="page-btn active">1</button>
-                    <button class="page-btn">2</button>
-                    <button class="page-btn">3</button>
-                    <span class="page-dots">...</span>
-                    <button class="page-btn">8</button>
-                </div>
-                <button class="pagination-btn">Næste</button>
-            </div>
-        </section>
+            </section>
+        </div>
     </main>
+
+    <script src="app.js"></script>
 </body>
 </html>
-
