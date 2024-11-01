@@ -72,6 +72,15 @@ class ServerManager {
         }
     }
 
+    // Tilføj try-catch blokke i server.js
+async refreshServers() {
+  try {
+    await this.fetchServers();
+  } catch (error) {
+    console.error('Server refresh fejlede:', error);
+    // Vis brugervenlig fejlmeddelelse
+  }
+}
     displayServers() {
         const container = document.querySelector('.servers-container');
         if (!container) return;
